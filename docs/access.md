@@ -1,11 +1,10 @@
-# Module 1: Access Sandbox
+# Module 1: Accessing Sandbox
  
 This module will walk users how to access the Sandbox via the NBDC Data Access Platform (hosted by Lasso).
 
-
 ## Module Objectives
 
-1. Navigate to the LASSO platform
+1. Navigate to the Lasso platform
 2. Login to the NBDC through the RAS login system.
 3. Access the sandbox and review the available tools.
 
