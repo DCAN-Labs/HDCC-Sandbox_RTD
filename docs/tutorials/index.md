@@ -1,7 +1,7 @@
 # Tutorials Overview
 
 ???+ info "Upcoming HDCC Workshop"
-    These tutorial modules will be presented as part of the **HDCC Workshop** at the HBCD Conference (San Diego, March 2026). See details [here](workshop.md).
+    These tutorial modules will be presented as part of the **HDCC Workshop** at the HBCD Conference (San Diego, March 2026). See details [here](../workshop.md).
 
 **Module 1: [Access the Sandbox →](access.md)**       
 Learn how to connect to and launch the Sandbox environment via the NBDC Data Access Platform.       
