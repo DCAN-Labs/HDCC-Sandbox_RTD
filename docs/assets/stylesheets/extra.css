@@ -1,0 +1,291 @@
+/* ===================================================================
+   LASSO PLATFORM DESIGN TOKENS FOR MATERIAL FOR MKDOCS
+   Updated to match designTokens.ts from core-ui
+   =================================================================== */
+
+/* ===================================================================
+   COLOR SCHEME
+   =================================================================== */
+  :root {
+  /* Main Colors (Blue) */
+  --md-primary-fg-color: #0C2F4D;
+  --md-primary-fg-color--light: #275C8B;
+  --md-primary-fg-color--dark: #071B2C;
+
+  /* Primary Accent Colors (Teal) */
+  --md-primary-main: #40B5AE;
+  --md-primary-dark: #08918A;
+  --md-primary-light: #53CBC5;
+  
+  /* Secondary Accent Colors (Coral/Orange) */
+  --md-secondary-main: #F2795E;
+  --md-secondary-dark: #E15436;
+  --md-secondary-light: #F89781;
+  
+  /* Text Colors */
+  --md-text-primary: #071B2C;
+  --md-text-secondary: #275C8B;
+  --md-text-disabled: rgba(0, 0, 0, 0.38);
+  --md-default-fg-color: #071B2C;
+  
+  /* Background Colors */
+  --md-bg-default: #F7F9FB;
+  --md-bg-paper: #FFFFFF;
+  --md-primary-bg-color: #F7F9FB;
+  --md-default-bg-color: #F7F9FB;
+  --md-code-bg-color: #f5f7fa;
+  
+  /* Action/Interaction Colors */
+  --md-action-hover: #E5F0FB;
+  --md-action-selected: #CEE5F9;
+  --md-action-focus: #DFEEFB;
+  --md-divider: #CEE5F9;
+  
+  /* Status Colors */
+  --md-success-main: #2E7D32;
+  --md-success-light: #4CAF50;
+  --md-warning-main: #EF6C00;
+  --md-warning-light: #FF9800;
+  --md-error-main: #D32F2F;
+  --md-info-main: #0288D1;
+  
+  /* Accent */
+  --md-accent-fg-color: #53CBC5;
+  
+  /* Spacing System */
+  --md-spacing-base: 8px;
+  --md-spacing-0: 0px;
+  --md-spacing-xs: 4px;
+  --md-spacing-sm: 8px;
+  --md-spacing-md: 16px;
+  --md-spacing-lg: 32px;
+  --md-spacing-xl: 64px;
+  
+  /* Border Radius */
+  --md-border-radius-sm: 4px;
+  --md-border-radius-md: 8px;
+  --md-border-radius-lg: 18px;
+  
+  /* Shadows */
+  --md-shadow-card: 1px 2px 5px 0px rgba(21, 24, 24, 0.10);
+  --md-shadow-hover: 1px 2px 6px 1px rgba(21, 24, 24, 0.15);
+  --md-shadow-dropdown: 2px 8px 8px 3px rgba(21, 24, 24, 0.25);
+}
+
+/* Set color of text with embedded links */
+.md-content {
+  --md-typeset-a-color: #08918A;
+}
+  
+a:hover { 
+  text-decoration: underline; 
+  color: #08918A;
+}
+
+
+/* ===================================================================
+   TYPOGRAPHY
+   =================================================================== */
+/* Font Face Declarations */
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/AeonikFono-Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Heading text: Agrandir (Regular) */
+@font-face {
+  font-family: "Agrandir-Regular";
+  src: url("../fonts/PPAgrandir-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Heading text: Agrandir (Bold) */
+@font-face {
+  font-family: "Agrandir-Bold";
+  src: url("../fonts/PPAgrandir-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Body Text Styles */
+.md-typeset {
+  font-family: "Aeonik", Helvetica, sans-serif;
+  font-size: 0.75rem;  /* LM: make font size just a bit smaller - originally 0.9rem*/
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Heading Styles - Mobile/Tablet First */
+.md-typeset h1 {
+  font-family: "Agrandir-Bold", sans-serif;
+  font-size: 1.875rem; /* 30px tablet */
+  line-height: 1.2;
+  color: #275C8B;
+}
+
+.md-typeset h2 {
+  font-family: "Agrandir-Bold", sans-serif;
+  font-size: 1.5rem; /* 24px tablet */
+  line-height: 1.2;
+  color: #275C8B;
+}
+
+.md-typeset h3 {
+  font-family: "Agrandir-Regular", sans-serif;
+  font-size: 1.25rem; /* 20px tablet */
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.md-typeset h4 {
+  font-family: "Agrandir-Regular", sans-serif;
+  font-size: 1.125rem; /* 18px tablet */
+  line-height: 1.5;
+}
+
+.md-typeset h5 {
+  font-family: "Agrandir-Regular", sans-serif;
+  font-size: 1rem; /* 16px tablet */
+  line-height: 1.5;
+}
+
+.md-typeset h6 {
+  font-family: "Agrandir-Regular", sans-serif;
+  font-size: 0.938rem; /* 15px tablet */
+  line-height: 1.5;
+}
+
+/* Code Styling */
+.md-typeset code {
+  font-family: 'Courier New', monospace;
+  color: #ba462c;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 0.2em 0.4em;
+  border-radius: var(--md-border-radius-sm);
+  font-size: 1.0em;
+}
+
+/* ===================================================================
+   COMPONENT STYLES
+   =================================================================== */
+
+/* Buttons */
+.button-link {
+  display: inline-block;
+  /* background-color: var(--md-secondary-light); */
+  background-color: var(--md-secondary-main); /* Changed from light variant */
+  padding: 12px 24px;
+  border-radius: var(--md-border-radius-md); /* Changed from 30px */
+  font-size: 1.2em;
+  font-family: "Agrandir-Bold", Helvetica, sans-serif;
+  text-decoration: none;
+  color: var(--md-text-primary);
+  box-shadow: var(--md-shadow-card);
+  transition: all 0.2s ease;
+}
+
+.button-link:visited {
+  color: var(--md-text-primary) !important;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: var(--md-secondary-dark);
+  box-shadow: var(--md-shadow-hover);
+  color: var(--md-text-primary) !important;
+  text-decoration: none;
+}
+
+/* ===================================================================
+   LIST STYLING
+   =================================================================== */
+
+/* Reduce spacing between list items */
+.md-typeset ul > li,
+.md-typeset ol > li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+/* Reduce spacing between list and surrounding content */
+.md-typeset ul > li:first-child,
+.md-typeset ol > li:first-child {
+  margin-top: 0;
+}
+
+.md-typeset ul > li:last-child,
+.md-typeset ol > li:last-child {
+  margin-bottom: 0;
+}
+
+/* ===================================================================
+   LINKABLE SECTION HEADERS
+   =================================================================== */
+
+/* Replace pilcrow with a link icon for headers */
+.md-content .headerlink {
+  font-size: 0;
+}
+
+.md-content .headerlink::before {
+  content: "\f0c1"; /* fa-link */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.75rem;
+}
+
+/* ===================================================================
+   LAYOUT
+   =================================================================== */
+
+/* Page Width */
+.md-grid {
+  max-width: 86%;
+}
+/* Add some space to bottom of page */
+.md-typeset {
+    margin-bottom: 2rem;
+}   
+
+/* ===================================================================
+   ACCESSIBILITY & INTERACTION STATES
+   =================================================================== */
+/* Dividers */
+hr,
+.md-typeset hr {
+  border-color: var(--md-divider);
+}
+
+/* ===================================================================
+   STATUS & FEEDBACK COLORS
+   =================================================================== */
+/* Info Messages */
+.md-typeset .info,
+.md-typeset .admonition.info {
+  border-left: 4px solid var(--md-success-main);
+}
+
+/* Warning Messages */
+.md-typeset .warning,
+.md-typeset .admonition.warning {
+  border-left: 4px solid var(--md-warning-main);
+}
+
+/* Danger Messages */
+.md-typeset .danger,
+.md-typeset .admonition.danger {
+  border-left: 4px solid var(--md-warning-main);
+}
+
+/* Success Messages */
+.md-typeset .success,
+.md-typeset .admonition.success {
+  border-left: 4px solid var(--md-success-main);
+}
