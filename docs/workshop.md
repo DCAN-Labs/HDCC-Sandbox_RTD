@@ -1,26 +1,27 @@
-# HDCC Sandbox Workshop
+# Upcoming HDCC Sandbox Workshop
 
-The **Data Analysis Tools & Statistics HDCC Workshop** (DATS-HDCC Workshop) will be held at the HBCD conference in San Diego (March 2026) and is designed to *train junior researchers in the best practices for reproducible analysis of large, openly accessible brain imaging phenotypic and non-imaging phenotypic data to learn how to estimate meaningful associations of brain structure and function, with cognitive functions and broader mental health outcomes.*
+The **Data Analysis Tools & Statistics HDCC (DATS-HDCC) Workshop** will be held at the **HBCD Conference in San Diego (March 2026)**. This workshop is designed to train early-career researchers in best practices for reproducible analysis of large-scale, openly accessible brain imaging and phenotypic datasets.
 
-The DATS-HDCC comprises the first two hours of the HDCC workshop. Participants will learn how to access the NBCD data on Lasso, how to
-connect to the sandbox, and how to perform analyses using the HDCC sandbox via R studio and Jupyter notebook examples.
+Participants will learn how to analyze high-dimensional neuroimaging and behavioral data to identify meaningful associations between brain structure and function, cognitive functions, and broader mental health outcomes.
+
+The **DATS-HDCC session** will comprise the first two hours of the HDCC workshop. During this session, participants will:
+
+ - Learn how to access HBCD data through the **[NBDC Data Access Platform](https://nbdc-datashare.lassoinformatics.com/)**
+ - Connect to the HDCC Sandbox environment
+ - Perform example analyses using RStudio and Jupyter Notebook
+
+These hands-on tutorials will introduce participants to the tools and workflows needed to conduct reproducible analyses within the HDCC infrastructure.
 
 ## Course Goals and Objectives
 
-#### Knowledge of HDCC
-Learn to access and use the NBDC databases and understand analytical and statistical considerations specific to the HBDC dataset.
-
-#### Learn to Conduct Brain-Wide Association Studies (BWAS) in Sandbox
-Learn basic principles and analysis methods for BWAS, and can conduct integrative analyses in R via RStudio or python via jupyter notebooks.
-
-#### Reproducible Scientific Research
-Develop the best practices for ensuring transparency and reproducibility in brain research and build reproducible and interpretable analysis with
-good coding practice and appropriate documentation.
-
-#### Interdisciplinary Collaboration
-Foster collaboration between early-career researchers, data scientists, and domain experts.
+ - **Knowledge of HDCC**: Learn to access and use the NBDC databases and understand analytical and statistical considerations specific to the HBDC dataset.
+ - **Conducting Brain-Wide Association Studies (BWAS) in the Sandbox**: Learn basic principles and analysis methods for BWAS, and can conduct integrative analyses in R via RStudio or python via jupyter notebooks.
+ - **Reproducible Scientific Research**: Develop best practices for transparent and reproducible neuroimaging research, including well-documented workflows, clear coding practices, and interpretable analytic pipelines.
+ - **Interdisciplinary Collaboration**: Foster collaboration between early-career researchers, data scientists, and domain experts working with large-scale brain and behavioral datasets.
 
 ## Recommended Training/Background
 
- - Required training background in at least one of these core competencies: statistics, bioinformatics, neuroscience, or related fields.
- - Some experience with R or Python is desired.
+Participants should have:
+
+1. Training in at least one relevant area such as **statistics, bioinformatics, neuroscience, or a related field**
+1. **Basic experience with R or Python** (helpful but not strictly required)

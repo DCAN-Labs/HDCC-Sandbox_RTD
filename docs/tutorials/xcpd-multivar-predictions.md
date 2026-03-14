@@ -17,16 +17,14 @@ By the end of this module, users will be able to:
 
 ## Walkthrough
 
-1. Return to your interactive sessions, you can do this by clicking on a new session in the dashboard and opening a new window. Instead of
-     launching, click on the “My Interactive Sessions” highlighted in blue – it will open the link to your sessions page.
+1. Return to your **Interactive Sessions**. You can do this by opening the dashboard in a new window. Instead of launching a new session, click **“My Interactive Sessions”** (highlighted in blue) to open the page listing your existing sessions.         
 <img src="../images/module6/image1.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-2. From your sessions, select your R studio server and launch it – if it's already open, you can skip these steps. Don't worry if you     accidentally relaunch, r studio servers are saved as images and are restored between sessions.
+2. From the sessions page, locate your **RStudio Server** session and launch it. If the session is already open, you can skip this step. Don't worry if you accidentally relaunch it - RStudio sessions are saved as images and will be restored between launches.      
 <img src="../images/module6/image2.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-3. Navigate to the “XCP_D_multivariate_prediction” in the examples folder and select the `prediction_FINAL.qmd` file.
+3. Navigate to the `XCP_D_multivariate_prediction/` directory within the `examples/` folder and open the file `prediction_FINAL.qmd`.       
 <img src="../images/module6/image3.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-4. This will open the multivariate_prediction example, which can also be knitted as a PDF or html output. Here we will follow the steps
-     in order.      
+4. This will open the **multivariate prediction example**, which can also be rendered as HTML or PDF output. From here, we work through the Jupyter Notebook step-by-step.          
   <img src="../images/module6/image4.png" alt="Study Target Progress" width="60%" height="auto" class="center">
