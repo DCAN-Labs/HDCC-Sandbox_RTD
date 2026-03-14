@@ -1,4 +1,4 @@
-# Module 5: diffusion univariate statistical testing
+# Module 5: Diffusion Univariate Statistical Testing
 
 White matter changes through development may be indicative of maturation
 of structural connections between brain regions. Diffusion imaging can
@@ -27,12 +27,10 @@ accessible.
      accidentally relaunch, r studio servers are saved as images and are     restored between sessions.
      <img src="../images/module5/image2.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-3. Selecting the R studio server, navigate to the     qsiprep_bigdata_univariate_analysis folder and open the
-     corresponding R markdown (“.Rmd”) file.
-          <img src="../images/module5/image3.png" alt="Study Target Progress" width="70%" height="auto" class="center">
+3. Selecting the R studio server, navigate to the `qsiprep_bigdata_univariate_analysis` folder and open the corresponding R markdown (“.Rmd”) file.      
+     <img src="../images/module5/image3.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-4. This will open the R markdown file in the top left corner – the file can be “knitted” into an html output. For the HDCC tutorial,
-     we will run through the steps instead.
+4. This will open the R markdown file in the top left corner – the file can be “knitted” into an html output. For the HDCC tutorial, we will run through the steps instead.       
     <img src="../images/module5/image4.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-5. After completing this tutorial we will follow with :doc:`XCP_D_output_multivariate_prediction` next.
+**The next section [XCP-D Output Multivariate Prediction](xcpd-multivar-predictions.md) will show how to perform multivariate prediction analysis using XCP-D derivative outputs for functional connectivity.**

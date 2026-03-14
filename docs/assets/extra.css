@@ -33,7 +33,6 @@
   --md-bg-paper: #FFFFFF;
   --md-primary-bg-color: #F7F9FB;
   --md-default-bg-color: #F7F9FB;
-  --md-code-bg-color: #f5f7fa;
   
   /* Action/Interaction Colors */
   --md-action-hover: #E5F0FB;
@@ -204,11 +203,10 @@ button:focus-visible,
 .md-typeset code {
   font-family: 'Courier New', monospace;
   color: #ba462c;
-  background-color: #f4f4f4;
   font-weight: bold;
   padding: 0.2em 0.4em;
   border-radius: var(--md-border-radius-sm);
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
 
 /* ICONS INCLUDED IN HEADERS */
@@ -228,3 +226,31 @@ button:focus-visible,
   transform: translateY(-2.0px);
 }
 
+/* ===================================================================
+   BUTTONS
+   =================================================================== */
+.button-link {
+  display: inline-block;
+  /* background-color: var(--md-secondary-light); */
+  background-color: var(--md-secondary-main); /* Changed from light variant */
+  padding: 12px 24px;
+  border-radius: var(--md-border-radius-md); /* Changed from 30px */
+  font-size: 1.2em;
+  font-family: "Agrandir-Bold", Helvetica, sans-serif;
+  text-decoration: none;
+  color: var(--md-text-primary);
+  box-shadow: var(--md-shadow-card);
+  transition: all 0.2s ease;
+}
+
+.button-link:visited {
+  color: var(--md-text-primary) !important;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: var(--md-secondary-dark);
+  box-shadow: var(--md-shadow-hover);
+  color: var(--md-text-primary) !important;
+  text-decoration: none;
+}

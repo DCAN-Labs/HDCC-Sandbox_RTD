@@ -3,11 +3,11 @@ site_name: HDCC Sandbox Tutorial
 
 theme:
   name: material
-  icon:
-    logo: material/home
-  # logo: assets/images/Lasso-Logo-Reverse-H.svg
-  favicon: assets/images/favicon-32x32.png
+  logo: assets/logos/codepen-brands-solid.svg
+  # logo: assets/logos/Lasso-Logo-Reverse-H.svg
+  favicon: assets/logos/favicon-32x32.png
   features:
+    - navigation.indexes   # index.md acts as the primary link for that section in the navigation
     - toc.integrate        # merges page TOC into left navigation instead of right sidebar
     - toc.follow           # highlights active section in TOC as you scroll
     - header.autohide      # hides top header on scroll down, reappears when scrolling up
@@ -54,12 +54,13 @@ extra_css:
 docs_dir: docs
 
 nav:
-  # - "<span class='material-icons'>home</span> Home": index.md
   - index.md
-  - Access Sandbox: access.md
-  - Load Desktop: load_desktop.md
-  - R Studio: r_studio.md
-  - Volumetric Analysis using Jupyter: volumetric_analysis.md
-  - Diffusion Univariate Statistical Testing: model_array.md
-  - XCP-D Output Multivariate Prediction: xcpd-multivar-predictions.md
+  - Tutorials:
+      - Overview: tutorials/index.md
+      - Accessing the Sandbox: tutorials/access.md
+      - Using the Sandbox Desktop: tutorials/load_desktop.md
+      - RStudio Setup: tutorials/r_studio.md
+      - Volumetric Analysis (Jupyter): tutorials/volumetric_analysis.md
+      - Diffusion Statistical Testing: tutorials/model_array.md
+      - Multivariate Prediction: tutorials/xcpd-multivar-predictions.md
   - Upcoming HDCC Workshop: workshop.md

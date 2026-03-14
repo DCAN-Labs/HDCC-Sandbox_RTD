@@ -1,0 +1,46 @@
+{
+    "creators": [
+        {
+            "name": "HBCD Consortium",
+            "type": "Organizational"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Feczko, Eric",
+            "orcid": "TO DO",
+            "affiliation": "Masonic Institute for the Developing Brain, UMN",
+            "type": "DataCurator"
+        },
+        {
+            "name": "Anderson, Michael",
+            "orcid": "TO DO",
+            "affiliation": "Masonic Institute for the Developing Brain, UMN",
+            "type": "DataCurator"
+        },
+        {
+           "name": "Moore, Lucille A.",
+            "orcid": "https://orcid.org/0000-0002-7665-2713",
+            "affiliation": "Masonic Institute for the Developing Brain, UMN",
+            "type": "DataCurator"
+        }
+    ],
+    "title": "HDCC Sandbox Tutorial",
+    "description": "Tutorial for use of Sandbox utility available via the NBDC Data Access Platform (https://nbdc-safe.lassoinformatics.com) hosted by Lasso Informatics.",
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "identifier": "https://hdcc-sandbox-rtd.readthedocs.io/",
+            "relation": "isPublishedIn",
+            "resource_type": "other"
+        }
+    ],
+    "keywords": [
+        "HBCD",
+        "data release"
+    ],
+    "license": "Apache-2.0",
+    "upload_type": "publication",
+    "publication_type": "other",
+    "language": "eng"
+}
