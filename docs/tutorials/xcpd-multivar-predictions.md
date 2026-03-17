@@ -26,5 +26,7 @@ By the end of this module, users will be able to:
 3. Navigate to the `XCP_D_multivariate_prediction/` directory within the `examples/` folder and open the file `prediction_FINAL.qmd`.       
 <img src="../images/module6/image3.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-4. This will open the **multivariate prediction example**, which can also be rendered as HTML or PDF output. From here, we work through the Jupyter Notebook step-by-step.          
-  <img src="../images/module6/image4.png" alt="Study Target Progress" width="60%" height="auto" class="center">
+4. This will open the **multivariate prediction example**, which can also be rendered as HTML or PDF output. From here, we work through the Quarto (.qmd) file step-by-step.          
+<img src="../images/module6/image4.png" alt="Study Target Progress" width="60%" height="auto" class="center">
+## Code Walkthrough
+
