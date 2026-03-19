@@ -1,6 +1,6 @@
 # Module 4: Volumetric Analysis Using Jupyter Notebook
 
-!!! info "**See the [HBCD Docs](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/) **MRI Processing & Derivatives Guide** for information on structural and functional MRI pipeline derivatives.**"
+!!! info "**See the [HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/) *MRI Processing & Derivatives Guide* for information on structural and functional MRI derivatives.**"
 
 The size of structural volumes is potentially meaningful with respect to brain function. Therefore, one fundamental question underlying ABCD and HBCD studies are the developmental trajectories of brain regions. BIBSnet provides volumetric outputs for the HBCD dataset. Here, we will load BIBSnet data and measure the trajectory of volumetric data across development. We will leverage ipython jupyter notebooks to perform this analysis.
 
