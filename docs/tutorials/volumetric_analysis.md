@@ -26,4 +26,6 @@ The size of structural volumes is potentially meaningful with respect to brain f
     <img src="../images/module4/image3.png" width="20%" height="auto" class="center">
     <img src="../images/module4/image6.png" width="30%" height="auto" class="center">
 
+!!! info "**Template files provided for visualization are sourced from the Baby Open Brains (BOBs) Repository - [see details](https://bobsrepository.readthedocs.io/).**"
+
 **The next section [Diffusion Statistical Testing](model_array.md) will show how to perform diffusion univariate statistical testing using QSIRecon pipeline outputs.**
