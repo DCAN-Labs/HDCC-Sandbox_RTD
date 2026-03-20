@@ -28,6 +28,53 @@ The size of structural volumes is potentially meaningful with respect to brain f
     <img src="../images/module4/image3.png" width="20%" height="auto" class="center">
     <img src="../images/module4/image6.png" width="30%" height="auto" class="center">
 
+## Code Highlights
+The ipython notebook contains lots of examples for any researcher to customize to answer your questions your way! Here we highlight a few simple snippets that can be easily customized.
+
+### Choosing your tabulated input data
+You can choose what tabulated data file you would like to load by editing code block 3 in the ipython notebook, reprinted below. This can be done to select not just imaging measurees but clinical or cognitive measures as well. The code below will take the `img_bibsnet_space-T1w_desc-aseg_volumes.tsv` and load it into a `data frame` in the jupyter notebook.
+```
+df = pd.read_csv('/shared/hackathon/hbcd/v2.0/hbcd/rawdata/phenotype/img_bibsnet_space-T1w_desc-aseg_volumes.tsv', sep='\t')
+df.head
+```
+
+### How to make brain growth scatter plots
+Visualizing your data is key to answering your study questions and communicating those answers. Here, we can make simple brain growth scatter plots using code block 4. The code for making this plot is reprinted below. The figure size can be adjusted by changing `figsize`. You can select another measure for the X axis by changing `img_bibsnet_space-T1w_desc-aseg_volumes_candidate_age` to another variable in the `data frame`. Similarly, you can select another measure for the Y axis by changing `img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebral-Cortex`. `alpha` controls how transparent the figure will be. `plt.xlabel`, `plt.ylabel`, `plt.title` all edit the labels for the X axis, Y axis, and title. `plt.grid(True)` maintains grid lines, while `plt.show()` displays the figure.
+More complex figures are available in the python notebook that one can use for flashier displays!
+
+<img src="../images/module4/image27.png" width="70%" height="auto" class="center">
+
+```
+# Plot
+plt.figure(figsize=(8,6))
+plt.scatter(
+    df['img_bibsnet_space-T1w_desc-aseg_volumes_candidate_age'],
+    df['img_bibsnet_space-T1w_desc-aseg_volumes_Left-Cerebral-Cortex'],
+    alpha=0.7
+)
+plt.xlabel('Candidate Age (in years)')
+plt.ylabel('Left Cerebral Cortex Volume')
+plt.title('Left Cerebral Cortex Volume vs Candidate Age')
+plt.grid(True)
+plt.show()
+```
+
+### How to create brain-based visualizations 
+Brain-based visualizations are a key component for inspecting and communicating neuroimaging findings and results. The final code block contains instructions to produce statistical maps on NIFTI (`nii.gz`) volumes. While that block is quite complex, there are several easy ways for researchers to customize the code to answer their question their way. The template data can be changed to other templates by changing the `src` variable. You can specify where you want your outputs located by changning the `out_dir` variable. Changing the `age col`, `img_bibsnet_space-T1w_desc-aseg_volumes_candidate_age` changes what is plotted on the X axis, while changing the `prefix` , `img_bibsnet_space-T1w_desc-aseg_volumes_` will enable you to choose whatever tabulated data you want to use. Please keep in mind that the corresponding outputs produced in `outputs` may require corresponding changes to the `src` templates as well.
+
+<img src="../images/module4/image26.png" width="70%" height="auto" class="center">
+
+```
+# PREPARE DATA
+# Define source and output data file paths provided in repo
+src = "data/src"
+out_dir = "data/outputs"
+
+# Define age column and ROI columns to loop through from HBCD data (exclude age columns and Unknown ROI)
+# NOTE! Can use T1w or T2w results here
+age_col='img_bibsnet_space-T1w_desc-aseg_volumes_candidate_age'
+prefix='img_bibsnet_space-T1w_desc-aseg_volumes_'
+```
 
 ## Brain-Based Visualizations
 

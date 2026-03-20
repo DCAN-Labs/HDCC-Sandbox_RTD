@@ -30,5 +30,21 @@ By the end of this module, users will be able to:
 
 4. This will open the **multivariate prediction example**, which can also be rendered as HTML or PDF output. From here, we work through the Quarto (.qmd) file step-by-step.          
 <img src="../images/module6/image4.png" alt="Study Target Progress" width="60%" height="auto" class="center">
-## Code Walkthrough
+
+## Code Highlights
+The markdown file contains a complete example from start to finish for building your own machine learning model from NBDC data. Researchers can modify the file to answer your questions your way! Here we highlight a few simple snippets that can be easily customized.
+
+### Selecting data files
+
+### Choosing your model
+
+### Data-visualizations
+
+### Exporting data for brain-based visualizations
+
+## Brain-based Visualizations
+
+### Introduction
+
+## Conclusion
 
