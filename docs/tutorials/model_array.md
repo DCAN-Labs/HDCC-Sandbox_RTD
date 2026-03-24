@@ -158,13 +158,13 @@ Mass-univariate brain-wide association studies (BWAS) help discover new biomarke
 
 11. Now we can navigate the brain and examine the statistical output for different structures! If we want to change the view or slice we can use the tools under the volume tab. We can select the orientation, such as coronal (red circle), to change our perspective. We can navigate different slices using the slice window (blue circle) for the corresponding orientation.
   
-<img src="../images/module4/image23.png" width="70%" height="auto" class="center">
-<img src="../images/module4/image24.png" width="70%" height="auto" class="center">
+<img src="../images/module5/image23.png" width="70%" height="auto" class="center">
+<img src="../images/module5/image24.png" width="70%" height="auto" class="center">
   
 ## Conclusion
 White matter development varies considerably throughout the brain. Typically, modelling these trajectories in the context of developmental outcomes requires vast computing resources. The Modelarray package and hdf5 file formats greatly minimize memory usage, enabling you to answer your brain-behavior questions on the same resources as a laptop. In addition, the example here shows you how to produce brain-based visualizations so you can further understand and commmunicate your findings.
 
-<img src="../images/module4/image25.png" width="70%" height="auto" class="center">
+<img src="../images/module5/image25.png" width="70%" height="auto" class="center">
 
 
 ## Next Steps
