@@ -12,10 +12,10 @@ In this module, you will learn best practices for dimensionality reduction and d
 
 By the end of this module, users will be able to:
 
-1. **Load XCP-D parcellated connectivity outputs.**
-1. Perform **dimensionality reduction on training data.**
-1. Apply the reduced feature space within a **longitudinal predictive model of cognition.**
-1. **Evaluate and visualize** model predictions.
+1. Load XCP-D parcellated connectivity outputs.
+1. Perform dimensionality reduction on training data.
+1. Apply the reduced feature space within a longitudinal predictive model of cognition.
+1. Evaluate and visualize model predictions.
 
 ## Walkthrough
 
