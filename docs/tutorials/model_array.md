@@ -14,8 +14,8 @@ accessible.
 ## Module Objectives
 
 1. Users will learn how to use diffusion imaging outputs from the ABCD study.
-2. Users will learn how to load HDF5 data and develop models using the   ModelArray package.
-3. Users will learn how to use R to perform statistical analysis of   variance.
+2. Users will learn how to load HDF5 data and develop models using the  ModelArray package.
+3. Users will learn how to use R to perform statistical analysis of variance.
 
 ## Walkthrough
 
@@ -23,8 +23,8 @@ accessible.
      launching, click on the “My Interactive Sessions” highlighted in blue – it will open the link to your sessions page.
      <img src="../images/module5/image1.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
-2. From your sessions, select your R studio server and launch it – if     its already open, you can skip these steps. Dont worry if you
-     accidentally relaunch, r studio servers are saved as images and are     restored between sessions.
+2. From your sessions, select your R studio server and launch it – if it's already open, you can skip these steps. Don't worry if you
+     accidentally relaunch, r studio servers are saved as images and are restored between sessions.
      <img src="../images/module5/image2.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
 3. Selecting the R studio server, navigate to the `qsiprep_bigdata_univariate_analysis` folder and open the corresponding R markdown (“.Rmd”) file.      
