@@ -108,26 +108,13 @@ analyseOneElement.wrap(
 )
 ```
 
-### How to output brain-based data for visualizations
-The ipython notebook, from start to finish, will conduct a whole-brain diffusion analyses to examine the effect of development on myelination patterns across the brain. To output the data for brain-based visualization we must first output the results as an h5 file. Change the `/path/to/a/new/h5/file.h5` to output the results to your preferred filename. 
-```
-writeResults("/path/to/a/new/h5/file.h5", df.output = res_wrap, analysis_name = "mapmri_rtop_anova_and_means")
-```
+### More Examples
+More examples can be found in the model array [additional notes](model_array_supplement.md).
 
-Next, we will need to convert the h5 file into a NIFTI (`.nii.gz`) file. We can modify the code chunk for `voxelstats_write` to output the NIFTI. We must provide the correct `cohort-file` for non-imaging data, `analysis-name` saved above, the correct `input-hdf5` imaging input file, and an `example-nifti` template for creating the NIFTI output. `output-dir` can be modified towards where the output NIFTI will be located.
-
-```
-$ voxelstats_write \
-  --cohort-file /nbdc-sandbox/derivatives/qsirecon-modelarray/ABCC_mapmri_rtop_phenotypes.csv \
-  --analysis-name mapmri_rtop_anova_and_means \
-  --input-hdf5 /nbdc-sandbox/derivatives/qsirecon-modelarray/qsirecon-mapmri_rtop.h5 \
-  --output-dir /where/you/want/to/put/your/niftis \
---example-nifti /nbdc-sandbox/derivatives/qsirecon-modelarray/qsirecon-mapmri_rtop.nii.gz # Need to find the real path
-```
 ## Brain-based Visualizations
 
 ### Introduction
-Mass-univariate brain-wide association studies (BWAS) help discover new biomarkers associated with mental health, such as development or cognitive outcomes. Visual inspection of these analyses on the brain remains extremely helpful in understanding and communicating findings to the broader scientific community. Here, ModelArray was used to examine the effects of age on variation in myelination as measured by RTOP. The following section will take you through one way to view these outputs on a template brain using `wb_view`
+Mass-univariate brain-wide association studies (BWAS) help discover new biomarkers associated with mental health, such as development or cognitive outcomes. Visual inspection of these analyses on the brain remains extremely helpful in understanding and communicating findings to the broader scientific community.  Here, ModelArray was used to examine the effects of age on variation in myelination as measured by RTOP. The ipython notebook, from start to finish, was used to conduct a whole-brain diffusion analyses to examine the effect of development on myelination patterns across the brain. The following section will take you through one way to view these outputs on a template brain using `wb_view`
 
 1. First, we will return to the virtual desktop by selecting the active virtual desktop session.
 
