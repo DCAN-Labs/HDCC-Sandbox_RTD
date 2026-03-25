@@ -59,7 +59,7 @@ plt.grid(True)
 plt.show()
 ```
 
-### How to create brain-based visualizations 
+### Visualize Model Weights on Brain
 Brain-based visualizations are a key component for inspecting and communicating neuroimaging findings and results. The final code block contains instructions to produce statistical maps on NIFTI (`nii.gz`) volumes. While that block is quite complex, there are several easy ways for researchers to customize the code to answer their question their way. The template data can be changed to other templates by changing the `src` variable. You can specify where you want your outputs located by changning the `out_dir` variable. Changing the `age col`, `img_bibsnet_space-T1w_desc-aseg_volumes_candidate_age` changes what is plotted on the X axis, while changing the `prefix` , `img_bibsnet_space-T1w_desc-aseg_volumes_` will enable you to choose whatever tabulated data you want to use. Please keep in mind that the corresponding outputs produced in `outputs` may require corresponding changes to the `src` templates as well.
 
 <img src="../images/module4/image26.png" width="70%" height="auto" class="center">
