@@ -2,7 +2,7 @@
 
 !!! info "**See the [HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/) for information on XCP-D derivatives in the data release, including the [file tree](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/#xcpd-derivs) and [MRI Derivatives Quick Start Guide](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/#mri-derivatives-quick-start-guide).**"
 
-<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/QSIrecon_univariate_bigdata_analysis" class="button-link">
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/XCP_D_multivariate_prediction" class="button-link">
   <i class="fa-brands fa-github"></i> View Code on GitHub
 </a>
 

@@ -1,6 +1,6 @@
 # Module 5: Diffusion Univariate Statistical Testing
 
-<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/XCP_D_multivariate_prediction" class="button-link">
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/QSIrecon_univariate_bigdata_analysis" class="button-link">
   <i class="fa-brands fa-github"></i> View Code on GitHub
 </a>
 

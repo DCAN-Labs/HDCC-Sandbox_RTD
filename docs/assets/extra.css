@@ -256,6 +256,7 @@ button:focus-visible,
   font-size: 1.2em;
   font-weight: bold;
   transition: all 0.2s ease;
+  color: var(--md-text-primary) !important;
 }
 
 .button-link i {
@@ -273,3 +274,5 @@ button:focus-visible,
   color: var(--md-text-primary) !important;
   text-decoration: none;
 }
+
+
