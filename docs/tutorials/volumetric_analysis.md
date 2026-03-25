@@ -91,8 +91,19 @@ The following steps will take users through using workbench for visualizing stat
 
 <img src="../images/module4/image8.png" width="70%" height="auto" class="center">
 
-3. From the terminal we will open `workbench_view` this is an apptainer that can be accessed using the following command: `apptainer exec --bind /shared:/shared /shared/hackathon/working-area/neurodesk/neurodesk-connectomeworkbench--1.5.0.simg wb_view`
+3. From the terminal we will open `workbench_view` that runs inside an Apptainer container can be accessed using the following command:
 
+```
+apptainer exec 
+--bind /shared:/shared 
+/shared/hackathon/working-area/neurodesk/neurodesk-connectomeworkbench--1.5.0.simg
+wb_view
+```
+
+??? info "What is an Apptainer?"
+    An Apptainer is a container that packages software, dependencies, and libraries together so that tools run the same way on any system. This allows us to run complex neuroimaging software without needing to install and configure it locally. In this case, the Apptainer contains Connectome Workbench and all required dependencies. Apptainers are commonly used in research computing and HPC environments to ensure reproducibility and simplify software setup.         
+    See further documentation here: [https://apptainer.org/docs/user/main/index.html](https://apptainer.org/docs/user/main/index.html)
+    
 <img src="../images/module4/image9.png" width="70%" height="auto" class="center">
 
 4. This will open a workbench view window where we can open files. The left hand tab allows users to navigate to recently used files or their home directory. For now select the `open other` button on the lower-right-hand side. 
