@@ -60,7 +60,27 @@ nrow(phenotypes)
 names(phenotypes)
 ```
 
+### Exploring the Data
+
+With both `modelarray` and data frame `phenotypes` set up, we can explore the data and prepare to write a function that we can use within `ModelArray.wrap` to compute what we want. It can be tricky to figure out exactly what you want to compute and how to make sure your function returns the correct output. We can use a convenience function from `ModelArray` to see what a dataframe looks like for a single voxel.
+
+```
+{r check_one_element_df, eval=FALSE}
+example_df <- exampleElementData(modelarray, 
+    scalar = "mapmri_rtop",
+    i_element = 72110,
+    phenotypes = phenotypes)
+names(example_df)
+```
+
+This is a rich dataframe!
+It contains the Mean Diffusivity for all subjects in the study at voxel 72110.
+It also contains the subject ID, session ID, sex, age, and other covariates.
+
+We can explore this single voxel like we would any dataframe - continue on to next section.
+
 ### Making Bar plot visualizations
+
 Bar plot visualizations are effective ways of visualizing a single comparison. The code chunk below is reprinted from the ipython notebook and can be easily customized to fit your preferences. Change `x` from `session_id` to plot a different variable on the X axis. Change `y` to plot a different variable on the Y axis. Change `color` from `session_id` to color-code the bars by a different grouping variable.
 
 <img src="../images/module5/image5.png" alt="Study Target Progress" width="70%" height="auto" class="center">
