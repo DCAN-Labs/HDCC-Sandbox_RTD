@@ -1,7 +1,8 @@
 # Tutorials Overview
 
-??? info "Upcoming HDCC Workshop"
-    These tutorial modules will be presented as part of the **HDCC Workshop** at the HBCD Conference (San Diego, March 2026). See details [here](../workshop.md).
+!!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**"
+
+**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/) GitHub repository.**
 
 **Module 1: [Access the Sandbox →](access.md)**       
 Learn how to connect to and launch the Sandbox environment via the NBDC Data Access Platform.       
@@ -20,3 +21,7 @@ Perform scalable statistical analysis of diffusion outputs without breaking the 
 
 **Module 6: [Multivariate Prediction (XCP-D) →](xcpd-multivar-predictions.md)**      
 Apply dimensionality reduction and predictive modeling to functional connectivity outputs. Users will examine how the trajectory of functional connectivity data impacts cognitive outcomes.        
+
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials" class="button-link">
+  <i class="fa-brands fa-github"></i> View Code on GitHub
+</a>

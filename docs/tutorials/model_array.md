@@ -1,5 +1,9 @@
 # Module 5: Diffusion Univariate Statistical Testing
 
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/XCP_D_multivariate_prediction" class="button-link">
+  <i class="fa-brands fa-github"></i> View Code on GitHub
+</a>
+
 White matter changes through development may be indicative of maturation
 of structural connections between brain regions. Diffusion imaging can
 measure white matter trajectory and density. Therefore, we can examine

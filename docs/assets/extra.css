@@ -145,6 +145,25 @@ a:hover {
 }
 
 /* ===================================================================
+   LAYOUT
+   =================================================================== */
+
+/* Page Width */
+.md-grid {
+  max-width: 86%;
+}
+/* Add some space to bottom of page */
+.md-typeset {
+    margin-bottom: 2rem;
+}   
+
+/* Adjust spacing between section headings and content */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.6rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* ===================================================================
    ACCESSIBILITY & INTERACTION STATES
    =================================================================== */
 /* Focus States */
@@ -231,16 +250,16 @@ button:focus-visible,
    =================================================================== */
 .button-link {
   display: inline-block;
-  /* background-color: var(--md-secondary-light); */
-  background-color: var(--md-secondary-main); /* Changed from light variant */
-  padding: 12px 24px;
+  background-color: var(--md-secondary-light);
+  padding: 5px 10px;
   border-radius: var(--md-border-radius-md); /* Changed from 30px */
   font-size: 1.2em;
-  font-family: "Agrandir-Bold", Helvetica, sans-serif;
-  text-decoration: none;
-  color: var(--md-text-primary);
-  box-shadow: var(--md-shadow-card);
+  font-weight: bold;
   transition: all 0.2s ease;
+}
+
+.button-link i {
+  margin-right: 6px; /* Spacing between icon and text */
 }
 
 .button-link:visited {

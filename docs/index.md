@@ -13,3 +13,7 @@ The **[HDCC Sandbox](https://nbdc-safe.lassoinformatics.com/pun/sys/dashboard)**
 - A user-friendly interface suitable for both beginner and advanced users
 
 This tutorial series will guide you through accessing the HDCC Sandbox and using its analysis tools to explore HBCD Study data within the NBDC ecosystem. See the **[HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/)** for detailed documentation about the latest release data.
+
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials" class="button-link">
+  <i class="fa-brands fa-github"></i> View Code on GitHub
+</a>

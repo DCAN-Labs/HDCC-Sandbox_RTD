@@ -2,6 +2,10 @@
 
 !!! info "**See the [HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/) for information on XCP-D derivatives in the data release, including the [file tree](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/#xcpd-derivs) and [MRI Derivatives Quick Start Guide](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/#mri-derivatives-quick-start-guide).**"
 
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/QSIrecon_univariate_bigdata_analysis" class="button-link">
+  <i class="fa-brands fa-github"></i> View Code on GitHub
+</a>
+
 [XCP-D](https://xcp-d.readthedocs.io/en/latest/) pipeline derivatives includes resting-state functional connectivity matrices to leverage for downstream analyses. Functional connectivity is a key marker of functional brain organization, which evolves across development. Measuring developmental trajectories of functional connectivity and understanding how these trajectories relate to behavioral outcomes such as cognition is an important goal for many researchers.
 
 However, functional connectivity data are extremely high-dimensional, making whole-brain multivariate modeling computationally intensive. Dimensionality reduction techniques can substantially reduce computational demands while preserving meaningful structure in the data. When applied correctly, these methods allow complex analyses to be performed even with limited RAM and CPU resources.

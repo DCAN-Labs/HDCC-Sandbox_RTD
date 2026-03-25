@@ -2,6 +2,10 @@
 
 !!! info "**See the [HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/instruments/mri/mri-proc/) *MRI Processing & Derivatives Guide* for information on structural and functional MRI derivatives.**"
 
+<a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/tree/main/examples/BIBSNet_volume_analysis" class="button-link">
+  <i class="fa-brands fa-github"></i> View Code on GitHub
+</a>
+
 The size of structural volumes is potentially meaningful with respect to brain function. Therefore, one fundamental question underlying ABCD and HBCD studies are the developmental trajectories of brain regions. Providing brain charts is an incredibly important tool for tracking developmental growth and providing normative models for biomarker discovery (Bethlehem et. al., Nature, 2022 ). One key gap in brain charts is the lack of a consistent pipeline for processing all the data -- trajectories may be contaminated by batch effects from differences in pipeline processing. In addition, some ages in current brain charts may be limited due to small sample sizes. BIBSnet provides volumetric outputs for the HBCD dataset. Here, we will load BIBSnet data and measure the trajectory of volumetric data across development filling the gap in infant development. We will leverage ipython jupyter notebooks to perform this analysis.
 
 ## Module Objectives
