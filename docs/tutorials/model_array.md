@@ -4,16 +4,12 @@
   <i class="fa-brands fa-github"></i> View Code on GitHub
 </a>
 
-White matter changes through development may be indicative of maturation
-of structural connections between brain regions. Diffusion imaging can
-measure white matter trajectory and density. Therefore, we can examine
-the maturation of structural connections by analyzing the developmental
-trajectory of diffusion imaging measures. Unfortunately, diffusion
-datasets are quite large, and computer systems may lack sufficient RAM
-and CPU resources to model across the whole brain. Here, users will
-learn how to use HDF5 outputs to load only the data needed for analysis,
-which minimizes the resource footprint and makes such analysis more
-accessible.
+White matter changes through development may be indicative of maturation of structural connections between brain regions. Diffusion imaging can measure white matter trajectory and density. Therefore, we can examine the maturation of structural connections by analyzing the developmental trajectory of diffusion imaging measures. Unfortunately, diffusion datasets are quite large, and computer systems may lack sufficient RAM and CPU resources to model across the whole brain. 
+
+Here, users will learn how to use HDF5 outputs from the [QSIRecon](https://qsirecon.readthedocs.io/en/latest/) pipeline to load only the data needed for analysis, which minimizes the resource footprint and makes such analysis more accessible.
+
+!!! info "Source Data for Tutorial"
+    Note that for this tutorial, we will be using a phenotype file used specifically for [Cieslak et al. 2025](https://doi.org/10.1101/2025.11.10.687672), made available via a secure NIST SP 1800 system. This tutorial will be updated in the future to use tabulated HBCD Study data available via the **[NBDC Data Access Platform](https://nbdc-datashare.lassoinformatics.com/)** for consistency. See the [diffusion MRI documentation](https://docs.hbcdstudy.org/latest/instruments/mri/dmri/#data-processing) in the HBCD Data Release Docs site for an overview of various metrics output by QSIRecon included in this file.
 
 ## Module Objectives
 
@@ -38,7 +34,7 @@ accessible.
     <img src="../images/module5/image4.png" alt="Study Target Progress" width="70%" height="auto" class="center">
 
 ## Code Highlights
-The markdown file contains a complete example from start to finish for using modelarray to perform a brain-wide assocation analysis. Researchers can modify the file to answer your questions your way! Here we highlight a few simple snippets that can be easily customized.
+The markdown file contains a complete example from start to finish for using `modelarray` to perform a brain-wide association analysis. Researchers can modify the file to answer your questions your way! Here we highlight a few simple snippets that can be easily customized.
 
 ### Selecting the data to load 
 You can choose the imaging data for your question by changing the `h5_path` to your preferred h5 file. You can also change the imaging measure loaded from the h5 file by changing `scalar_types` in the code block at the beginning of the file, reprinted below.
