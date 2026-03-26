@@ -98,10 +98,7 @@ The following steps will take users through using workbench for visualizing stat
 3. From the terminal we will open `workbench_view` that runs inside an Apptainer container can be accessed using the following command:
 
 ```
-apptainer exec 
---bind /shared:/shared 
-/shared/hackathon/working-area/neurodesk/neurodesk-connectomeworkbench--1.5.0.simg
-wb_view
+apptainer exec --bind /shared:/shared /shared/hackathon/working-area/neurodesk/neurodesk-connectomeworkbench--1.5.0.simg wb_view
 ```
 
 ??? info "What is an Apptainer?"

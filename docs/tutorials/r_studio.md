@@ -24,12 +24,12 @@ The RStudio server enables users a stable R environment for conducting analyses 
 3. This will open an RStudio session. Go ahead and click on it and you’ll have an R studio session loaded like this
 <img src="../images/module3/image5.png" width="90%" height="auto" class="center">
 
-4. In the lower right hand corner, navigate to the “HDCC_Sandbox_tutorial/examples/install_dependencies” and open the R script
+4. In the lower right hand corner, make sure the `files` tab is selected and navigate to the “HDCC_Sandbox_tutorial/examples/install_dependencies” and open the R script
 <img src="../images/module3/image3.png" width="50%" height="auto" class="center">         
 <img src="../images/module3/image7.png" width="30%" height="auto" class="center">         
 <img src="../images/module3/image6.png" width="30%" height="auto" class="center">
 
-5. This will open a script on the left hand side – go ahead and just run the script (see latest version of script with documented function of each R package in [GitHub repo](https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/blob/main/examples/install_dependencies/HDCC_workshop_tutorial_package_script.R)). Installation time is about 10-20 minutes. 
+5. This will open a script on the left hand side – go ahead and just run the script; you can run the entire script by clicking the "source" button in the upper right corner of the script window (see latest version of script with documented function of each R package in [GitHub repo](https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/blob/main/examples/install_dependencies/HDCC_workshop_tutorial_package_script.R)). Installation time is about 10-20 minutes. 
 
 ??? info "R Packages"
     R packages installed at the time of the HDCC 2026 Sandbox tutorial include:
