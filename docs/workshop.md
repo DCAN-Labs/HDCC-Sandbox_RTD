@@ -4,13 +4,13 @@ The **Data Analysis Tools & Statistics HDCC (DATS-HDCC) Workshop** (held at the 
 
 Participants will learn how to analyze high-dimensional neuroimaging and behavioral data to identify meaningful associations between brain structure and function, cognitive functions, and broader mental health outcomes.
 
-The **DATS-HDCC session** will comprise the first two hours of the HDCC workshop. During this session, participants will:
+The **DATS-HDCC session** will comprise the first two hours of the HDCC workshop. During this session, participants:
 
  - Learn how to access HBCD data through the [NBDC Data Access Platform](https://nbdc-datashare.lassoinformatics.com/)
  - Connect to the HDCC Sandbox environment
  - Perform example analyses using RStudio and Jupyter Notebook
 
-These hands-on tutorials will introduce participants to the tools and workflows needed to conduct reproducible analyses within the HDCC infrastructure.
+These hands-on tutorials introduce participants to the tools and workflows needed to conduct reproducible analyses within the HDCC infrastructure.
 
 ## Course Goals and Objectives
 
