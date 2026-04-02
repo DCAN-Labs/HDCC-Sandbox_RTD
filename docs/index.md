@@ -1,6 +1,6 @@
 <h1><i class="fa-brands fa-codepen" style="font-size: 0.95em;"></i>&nbsp; Welcome to the HDCC Sandbox Tutorial Series!</h1>
 
-!!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**"
+<!-- !!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**" -->
 
 Large-scale initiatives such as the **HEALthy Brain Child Development ([HBCD](https://hbcdstudy.org/)) Study** are generating unprecedented volumes of longitudinal neuroimaging and behavioral data. These datasets provide powerful opportunities to study how brain development interacts with environmental influences across critical early life periods. 
 

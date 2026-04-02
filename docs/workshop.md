@@ -1,6 +1,6 @@
-# Upcoming HDCC Sandbox Workshop
+# HDCC Sandbox Workshop
 
-The **Data Analysis Tools & Statistics HDCC (DATS-HDCC) Workshop** will be held at the **HBCD Conference in San Diego (March 2026)**. This workshop is designed to train early-career researchers in best practices for reproducible analysis of large-scale, openly accessible brain imaging and phenotypic datasets.
+The **Data Analysis Tools & Statistics HDCC (DATS-HDCC) Workshop** (held at the HBCD Conference in San Diego, March 2026) is designed to train early-career researchers in best practices for reproducible analysis of large-scale, openly accessible brain imaging and phenotypic datasets.
 
 Participants will learn how to analyze high-dimensional neuroimaging and behavioral data to identify meaningful associations between brain structure and function, cognitive functions, and broader mental health outcomes.
 
