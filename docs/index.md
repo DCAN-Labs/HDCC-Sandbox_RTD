@@ -18,7 +18,7 @@ This tutorial series will guide you through accessing the HDCC Sandbox and using
 
 ## Tutorials
 
-**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/) GitHub repository.**
+**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/) GitHub repository.**
 
 **Module 1: [Access the Sandbox →](tutorials/access.md)**       
 Learn how to connect to and launch the Sandbox environment via the NBDC Data Access Platform.       
