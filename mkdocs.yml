@@ -64,12 +64,9 @@ docs_dir: docs
 
 nav:
   - index.md
-  - Tutorials:
-      - Overview: tutorials/index.md
-      - Accessing the Sandbox: tutorials/access.md
-      - Using the Sandbox Desktop: tutorials/load_desktop.md
-      - RStudio Setup: tutorials/r_studio.md
-      - Volumetric Analysis (Jupyter): tutorials/volumetric_analysis.md
-      - Diffusion Statistical Testing: tutorials/model_array.md
-      - Multivariate Prediction: tutorials/xcpd-multivar-predictions.md
-  - HDCC Workshop: workshop.md
+  - Accessing the Sandbox: tutorials/access.md
+  - Using the Sandbox Desktop: tutorials/load_desktop.md
+  - RStudio Setup: tutorials/r_studio.md
+  - Volumetric Analysis (Jupyter): tutorials/volumetric_analysis.md
+  - Diffusion Statistical Testing: tutorials/model_array.md
+  - Multivariate Prediction: tutorials/xcpd-multivar-predictions.md

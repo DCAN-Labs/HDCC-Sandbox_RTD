@@ -1,6 +1,8 @@
 <h1><i class="fa-brands fa-codepen" style="font-size: 0.95em;"></i>&nbsp; Welcome to the HDCC Sandbox Tutorial Series!</h1>
 
-<!-- !!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**" -->
+## Overview
+
+!!! info "**This tutorial series was developed as part of the 2026 HDCC Workshop - see workshop syllabus <a href="assets/pdf/Sandbox-Workshop2026.pdf" target="_blank">here</a>.**"
 
 Large-scale initiatives such as the **HEALthy Brain Child Development ([HBCD](https://hbcdstudy.org/)) Study** are generating unprecedented volumes of longitudinal neuroimaging and behavioral data. These datasets provide powerful opportunities to study how brain development interacts with environmental influences across critical early life periods. 
 
@@ -13,6 +15,28 @@ The **[HDCC Sandbox](https://nbdc-safe.lassoinformatics.com/pun/sys/dashboard)**
 - A user-friendly interface suitable for both beginner and advanced users
 
 This tutorial series will guide you through accessing the HDCC Sandbox and using its analysis tools to explore HBCD Study data within the NBDC ecosystem. See the **[HBCD Data Release Docs](https://docs.hbcdstudy.org/latest/)** for detailed documentation about the latest release data.
+
+## Tutorials
+
+**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/) GitHub repository.**
+
+**Module 1: [Access the Sandbox →](tutorials/access.md)**       
+Learn how to connect to and launch the Sandbox environment via the NBDC Data Access Platform.       
+
+**Module 2: [Using the Sandbox Desktop →](tutorials/load_desktop.md)**          
+Learn how to navigate the virtual desktop environment and clone external repositories into the Sandbox for analysis.        
+
+**Module 3: [RStudio Setup →](tutorials/r_studio.md)**       
+Launch RStudio Server inside the Sandbox and install dependencies required for the tutorial examples.       
+
+**Module 4: [Volumetric Analysis (Jupyter) →](vtutorials/olumetric_analysis.md)**       
+Explore developmental trajectories of volumetric outputs from the [BIBSnet](https://bibsnet.readthedocs.io/en/latest/) pipeline using Jupyter notebooks.      
+
+**Module 5: [Diffusion Statistical Testing (QSIRecon) →](tutorials/model_array.md)**          
+Perform scalable statistical analysis of diffusion outputs without breaking the bank on memory using the `modelarray` package. Users will examine the trajectory of diffusion outputs from [QSIRecon](https://qsirecon.readthedocs.io/en/latest/).            
+
+**Module 6: [Multivariate Prediction (XCP-D) →](tutorials/xcpd-multivar-predictions.md)**      
+Apply dimensionality reduction and predictive modeling to functional connectivity outputs. Users will examine how the trajectory of functional connectivity data impacts cognitive outcomes.        
 
 <a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials" class="button-link">
   <i class="fa-brands fa-github"></i> View Code on GitHub
