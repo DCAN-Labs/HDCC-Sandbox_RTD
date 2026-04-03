@@ -1,4 +1,4 @@
-site_name: HDCC Sandbox Tutorial Series
+site_name: NBDC Sandbox Tutorial Series
 # site_url: https://docs.sandbox-tutorial
 
 theme:
@@ -72,4 +72,3 @@ nav:
       - Volumetric Analysis (Jupyter): tutorials/volumetric_analysis.md
       - Diffusion Statistical Testing: tutorials/model_array.md
       - Multivariate Prediction: tutorials/xcpd-multivar-predictions.md
-  - HDCC Workshop: workshop.md

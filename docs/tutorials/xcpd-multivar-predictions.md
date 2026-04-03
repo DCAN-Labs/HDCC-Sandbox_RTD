@@ -147,7 +147,7 @@ Mulitvariate BWAS can powerfully predict future outcomes as shown in this exampl
 <img src="../images/module6/image12.png" width="70%" height="auto" class="center">
 <img src="../images/module6/image13.png" width="70%" height="auto" class="center">
 
-7. We now have blank surfaces that we can view! Use "open file" from the file tab to open another file. To select the statistical maps we will have to return to the HDCC Sandbox Tutorial folder example `XCP_D_multivariate_prediction`. Follow the pictures below to locate the folder. Then select the `Results` folder. The brain weights can be found in the `V02_weights` and `V03_weights` for V02 and V03 respectively.
+7. We now have blank surfaces that we can view! Use "open file" from the file tab to open another file. To select the statistical maps we will have to return to the NBDC Sandbox Tutorial folder example `XCP_D_multivariate_prediction`. Follow the pictures below to locate the folder. Then select the `Results` folder. The brain weights can be found in the `V02_weights` and `V03_weights` for V02 and V03 respectively.
 
 <img src="../images/module6/image14.png" width="70%" height="auto" class="center">
 <img src="../images/module6/image15.png" width="70%" height="auto" class="center">

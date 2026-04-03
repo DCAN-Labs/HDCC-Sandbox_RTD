@@ -2,7 +2,7 @@
 
 !!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**"
 
-**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/) GitHub repository.**
+**All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/) GitHub repository.**
 
 **Module 1: [Access the Sandbox →](access.md)**       
 Learn how to connect to and launch the Sandbox environment via the NBDC Data Access Platform.       
@@ -25,3 +25,4 @@ Apply dimensionality reduction and predictive modeling to functional connectivit
 <a href="https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials" class="button-link">
   <i class="fa-brands fa-github"></i> View Code on GitHub
 </a>
+
