@@ -3,8 +3,9 @@ site_name: NBDC Sandbox Tutorial Series
 
 theme:
   name: material
-  logo: assets/logos/codepen-brands-solid.svg
+  logo: assets/logos/bucket-solid-full.svg
   # logo: assets/logos/Lasso-Logo-Reverse-H.svg
+  # logo: assets/logos/favicon-32x32.png
   favicon: assets/logos/favicon-32x32.png
   features:
     - navigation.indexes   # index.md acts as the primary link for that section in the navigation
