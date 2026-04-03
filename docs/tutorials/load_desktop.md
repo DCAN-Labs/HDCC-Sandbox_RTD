@@ -30,8 +30,7 @@ sandbox.
    <img src="../images/module2/image5.png" width="70%" height="auto" class="center">
 
 5. Now, we will want to see what data is on the sandbox environment. This can be found in the “/shared” folder on the root system. Go
-     ahead and list the contents of the `/shared/hackathon` folder, and you’ll see folders for the ABCD and HBCD data available for the
-     workshop.    
+     ahead and list the contents of the `/shared/hackathon` folder, and you’ll see folders for the ABCD and HBCD data available.    
      <img src="../images/module2/image6.png" width="70%" height="auto" class="center">
 
 6. If you list the contents of “~/HDCC_Sandbox_tutorials/examples” you’ll see the four examples we’ll be tackling today.      

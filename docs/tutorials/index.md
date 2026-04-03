@@ -1,7 +1,5 @@
 # Tutorials Overview
 
-!!! info "**This tutorial series will be presented as part of an upcoming HDCC Workshop - see workshop details [here](workshop.md).**"
-
 **All of the tutorial modules below can be found in the [HDCC_Sandbox_tutorials](https://github.com/DCAN-Labs/HDCC_Sandbox_tutorials/) GitHub repository.**
 
 **Module 1: [Access the Sandbox →](access.md)**       

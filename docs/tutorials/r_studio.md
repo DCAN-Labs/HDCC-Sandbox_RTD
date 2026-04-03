@@ -4,7 +4,7 @@
   <i class="fa-brands fa-github"></i> View Code on GitHub
 </a>
 
-The RStudio server enables users a stable R environment for conducting analyses on the sandbox. The R studio server session is stored within users home directories, enabling some permanence between RStudio server sessions. In order to leverage the R studio server, users will have to install their own R packages. This module will walk users through basic installation steps needed for this workshop.
+The RStudio server enables users a stable R environment for conducting analyses on the sandbox. The R studio server session is stored within users home directories, enabling some permanence between RStudio server sessions. In order to leverage the R studio server, users will have to install their own R packages. This module will walk users through basic installation steps needed.
 
 ## Module Objectives
 
