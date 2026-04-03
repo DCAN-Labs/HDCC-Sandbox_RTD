@@ -111,7 +111,7 @@ apptainer exec --bind /shared:/shared /shared/hackathon/working-area/neurodesk/n
 
 <img src="../images/module4/image10.png" width="70%" height="auto" class="center">
 
-5. For this module, the templates can be found inside the HDCC Sandbox Tutorial folder. Follow the pictures below to locate the final path to the BIBSnet module folder. 
+5. For this module, the templates can be found inside the NBDC Sandbox Tutorial folder. Follow the pictures below to locate the final path to the BIBSnet module folder. 
   
 <img src="../images/module4/image11.png" width="70%" height="auto" class="center">
 <img src="../images/module4/image12.png" width="70%" height="auto" class="center">

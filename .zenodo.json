@@ -25,7 +25,7 @@
             "type": "DataCurator"
         }
     ],
-    "title": "HDCC Sandbox Tutorial",
+    "title": "NBDC Sandbox Tutorial",
     "description": "Tutorial for use of Sandbox utility available via the NBDC Data Access Platform (https://nbdc-safe.lassoinformatics.com) hosted by Lasso Informatics.",
     "access_right": "open",
     "related_identifiers": [
